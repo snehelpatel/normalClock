@@ -1,4 +1,3 @@
-
 function clock (){
   // console.log("hey")
 var currentTime = new Date();
@@ -11,7 +10,8 @@ if (seconds < 10) {seconds = "0" + seconds;}
 
 if (hours < 10) { hours = "0" + hours;}
 
-document.getElementById("clock-container").innerHTML= hours+":"+minutes+":"+seconds;
+document.getElementById("clock-container").innerHTML= "#"+hours+minutes+seconds;
+var col= document.getElementById("clock-container");col.style.background= "#"+hours+minutes+seconds;
 }
 var clickclock = setInterval(clock, 1000);
 clock();
