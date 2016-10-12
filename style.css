@@ -1,0 +1,11 @@
+div {
+  border: 5px solid lightblue;
+  width:auto;
+  height:400px;
+  font-family: 'Trirong', serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+  margin-left:200px;
+  margin-right:200px;
+}
