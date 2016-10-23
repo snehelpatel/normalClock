@@ -1,5 +1,5 @@
 function clock (){
-  // console.log("hey")
+  // is it working  console.log("hey")
 var currentTime = new Date();
 var hours = currentTime.getHours ();
 var minutes = currentTime.getMinutes ();
